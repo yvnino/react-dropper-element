@@ -12,6 +12,7 @@
   },
   "author": "Yoav Nino",
   "license": "MIT",
+  "repository": "git@github.com:yvnino/react-dropper-element.git",
   "devDependencies": {
     "autoprefixer": "6.6.1",
     "babel-cli": "6.26.0",
