@@ -7,7 +7,7 @@ npm install --save react-dropper-element
 
 ## usage
 
-...
+```
 import DragDropElement from 'react-dropper-element';
 
 
