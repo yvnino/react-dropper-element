@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// eslint-disable-next-line
 import DropperElement from 'react-dropper-element';
-// var tD =  DropperElement;
 
 export class App extends React.Component {
   constructor(props) {
