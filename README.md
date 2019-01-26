@@ -1,6 +1,8 @@
 # react-dropper-element
 React HOC for drop on any elements.
 
+Live Demo: https://yvnino.github.io/react-dropper-element/example/public/
+
 ## install
 
 npm install --save react-dropper-element
