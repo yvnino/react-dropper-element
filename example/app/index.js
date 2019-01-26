@@ -11,6 +11,19 @@ export class App extends React.Component {
       draggedElements: []
     };
   }
+  
+  componentDidMount() {
+    window.addEventListener('dragover', (e) => {
+      // eslint-disable-next-line
+      e = e || event;
+      e.preventDefault();
+    }, false);
+    window.addEventListener('drop', (e) => {
+      // eslint-disable-next-line
+      e = e || event;
+      e.preventDefault();
+    }, false);
+  }
 
   onLoadImg = (e) => {
     this.setState({ image: e.target.result });
