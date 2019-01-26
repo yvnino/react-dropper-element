@@ -16,19 +16,6 @@ export class DropperElement extends React.Component {
     };
   }
 
-  componentDidMount() {
-    window.addEventListener('dragover', (e) => {
-      // eslint-disable-next-line
-      e = e || event;
-      e.preventDefault();
-    }, false);
-    window.addEventListener('drop', (e) => {
-      // eslint-disable-next-line
-      e = e || event;
-      e.preventDefault();
-    }, false);
-  }
-
   onDrop = (e) => {
     e.preventDefault();
     e.stopPropagation();
