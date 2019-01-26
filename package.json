@@ -1,14 +1,14 @@
 {
   "name": "react-dropper-element",
-  "version": "1.0.0",
-  "description": "react-drag-and-drop-files",
+  "version": "1.0.6",
+  "description": "react HOC to drop files/Elements",
   "main": "index.js",
   "scripts": {
     "start": "node server.js --display-error-details",
     "eslint": "./node_modules/.bin/eslint src/app/index.js",
     "test": "./node_modules/.bin/jest",
-    "generate_dev_bundle": "webpack --config webpack.config.dev.js",
-    "generate_prod_bundle": "webpack --config webpack.config.prod.js"
+    "build": "webpack --config webpack.config.js",
+    "deploy": "npm run generate_prod_bundle && npm publish ./dist"
   },
   "author": "Yoav Nino",
   "license": "MIT",

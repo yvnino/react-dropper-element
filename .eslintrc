@@ -32,6 +32,7 @@
       "no-console": 0,
       "no-unused-expressions": ["error", { "allowTernary": true }],
       "radix": ["error", "as-needed"],
+      "import/extensions": 0,
       "no-trailing-spaces": 0,
       "import/prefer-default-export": 0,
       "react/jsx-closing-bracket-location": [2, { "location": "after-props" }],
