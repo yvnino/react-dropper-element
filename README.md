@@ -12,7 +12,7 @@ $ npm install --save react-dropper-element
 ## usage
 
 ```
-import DragDropElement from 'react-dropper-element';
+import DropperElement from 'react-dropper-element';
 
 
 <DropperElement 
